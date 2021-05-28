@@ -1,0 +1,137 @@
+.essay_main {
+    background: url(../../../../img/Bg1-1.svg) #f4f6fa no-repeat center;
+    background-position-y: -120px;
+    background-size: 100%;
+    padding-bottom: 40px;
+    .essay_h2 {
+        filter: drop-shadow(5px 5px 2px $light-color);
+        padding-top: 40px;
+        margin-bottom: 20px;
+        h2 {
+            font-family: 'Roboto Bolt';
+            font-size: 26px;
+            text-transform: uppercase;
+            color: $l-middle-color;
+            text-align: center;
+            line-height: 1.6;
+            background-color: $light-color;
+            }
+        .d7 {
+            width: 0; 
+            height: 0;
+            border-top: 16px solid $light-color;
+            border-right: 18px solid transparent;
+            }
+    }
+    p {
+        font-family: 'Arial Narrow';
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 1.2;
+
+    }
+      
+    .essay_main_list {
+        margin-top: 35px;
+        font-family: 'Arial Narrow';
+        .col-3 {
+            padding: o;
+            .active_block {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 100%;
+                justify-content: space-between;
+                padding: 15px 15px;
+                h4 {
+                    font-family: 'Roboto Medium';
+                    text-transform: uppercase;
+                    color: $l-middle-color;
+                    height: 100px;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                }
+                p {
+                    font-family: 'Arial Narrow';;
+                    font-size: 16px;
+                    text-align: justify;
+                }
+                ul {
+                    font-family: 'Arial Narrow';
+                    font-weight: bold;
+                    font-size: 16px;
+                    text-align: justify;
+                    list-style-position: inside;
+                }
+                a {
+                    font-family: 'Roboto-Regular';
+                    font-size: 16px;
+                    text-decoration: none;
+                    text-align: center;
+                    color: white;
+                    background-color: $middle-color;
+                    line-height: 1.5; 
+                    padding: 10px 12px;
+                    justify-self: flex-end;
+                    margin-top: 30px;
+                }
+                .circle {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 auto;
+                    background-color: #caddea;
+                    border-radius: 50%;
+                    width: 110px;
+                    height: 110px;
+                }
+            }
+        }
+    }
+} 
+//**.active.hover
+.active_block {
+    background-color: #f4f6fa;
+}
+.d7_active_block {
+    width: 0; 
+    height: 0;
+    border-top: 30px solid #f4f6fa;
+    border-right: 40px solid transparent;
+}
+.essay_main_list .col-3:hover {
+    filter: drop-shadow(5px 5px 2px #cedbe0);
+}
+.essay_main_list .col-3:hover .active_block{
+    background-color: white;
+}
+.essay_main_list .col-3:hover .d7_active_block {
+    border-top: 30px solid white;
+}
+.sprite-chell-icon-1::after {
+    content: '';
+    width: 79px;
+    height: 61px;
+    background-position: -5px -80px;
+}
+.sprite-chell-icon-2::after {
+    content: '';
+    width: 73px;
+    height: 66px;
+    background-position: -5px -151px;
+}
+.sprite-chell-icon-3::after {
+    content: '';
+    width: 61px;
+    height: 63px;
+    background-position: -5px -227px;
+}
+.sprite-chell-icon-4::after {
+    content: '';
+    width: 44px;
+    height: 58px;
+    background-position: -5px -300px;
+}

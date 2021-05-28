@@ -1,0 +1,23 @@
+.icon_header {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.091;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.icon .icon_header:first-child::after {
+    content: '';
+    width: 41px;
+    height: 25px;
+    background-position: -5px -45px;
+    margin-right: 70px;
+}
+.icon .icon_header:last-child::after {
+    content: '';
+    width: 51px;
+    height: 30px;
+    background-position: -5px -5px;
+}

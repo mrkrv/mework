@@ -1,0 +1,13 @@
+h1, h2, h3, h4, h5, h6, ul, body, p {
+    margin: 0;
+    padding: 0;
+}
+
+.sprite::after {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+p {
+    font-family: $p-font;
+}

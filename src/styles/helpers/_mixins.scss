@@ -1,0 +1,14 @@
+@mixin border($bg-colo,$width,$b-color) {
+    background-color: $bg-colo;
+    width: $width;
+    height: 100px;
+    border-radius: 50px 20px;
+    border: solid 3px $b-color;
+    border-top: double $b-color 5px;
+    border-bottom: double $b-color 5px;
+}
+@mixin font($size:15px,$font:$p-font,$color:white) {
+    font-size: $size;
+    font-family: $font;
+    color: $color;
+}
